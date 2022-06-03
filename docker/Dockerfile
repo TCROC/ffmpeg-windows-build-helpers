@@ -41,4 +41,4 @@ RUN apt-get update && \
 COPY . ./ffmpeg-windows-build-helpers
 
 WORKDIR /ffmpeg-windows-build-helpers
-# ENTRYPOINT [ "bash", "./docker/docker-entry.sh" ]
+ENTRYPOINT [ "bash", "./docker/docker-entry.sh" ]
